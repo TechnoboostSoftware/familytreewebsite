@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+}
+
+.bg-grey {
+    background: #F1F2F4;
+}
+
+.text-green {
+    color: rgba(39, 192, 61, 1);
+}
+
+.btngreen {
+    background: linear-gradient(275deg, #27C03D 17.21%, #5BEE74 100%);
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.dropUp, .dropDown {
+    width: 15px;
+    height: 15px;
+}
+
+.close .body {
+    display: none;
+}
+
+.open .body {
+    display: block;
+}
+
+.close .dropUp {
+    display: block;
+}
+
+.open .dropUp {
+    display: none;
+}
+
+.open .dropDown {
+    display: block;
+}

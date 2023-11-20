@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+
+    <body>
+        <!-- #################### navBar ######################## -->
+        <nav>
+            <div class="md:px-7 px-3 py-3 flex items-center justify-between" style="background: #FAFAFA;">
+                <!-- Right elements -->
+                <div class="relative flex items-center">
+                    <img src="images/navLogo.svg">
+                </div>
+
+                <!-- Hamburger button for mobile view -->
+                <button
+                    class="block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+                    type="button" data-te-collapse-init data-te-target="#navbarSupportedContent1"
+                    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Hamburger icon -->
+                    <span class="[&>svg]:w-7">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+                            <path fill-rule="evenodd"
+                                d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </button>
+
+                <!-- Collapsible navigation container -->
+                <div class="flex md:flex-row flex-col items-center gap-x-5" id="navbarSupportedContent1" data-te-collapse-item>
+                    <!-- Logo -->
+                    <button class="py-2 px-5 border rounded bg-white text-base">Contact Us</button>
+                    <div class="flex md:flex-row flex-col items-center justify-between gap-x-2">
+                        <img src="images/appStore.svg">
+                        <img src="images/playStore.svg">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- #################### landingPage ######################## -->
+        <section class="bg-grey">
+            <div class="grid grid-cols-12 items-center">
+                <div class="md:col-span-6 col-span-12">
+                    <div
+                        class="md:pl-7 md:w-7/8 w-5/7 md:pt-0 pt-7 flex flex-col justify-center md:items-start items-center">
+                        <p class="md:text-6xl text-3xl md:text-start text-center font-bold leading-tight text-black">One App to
+                            Build Your Own Family Tree </p>
+                        <p class="md:text-xl text-base md:text-start text-center font-normal pt-3 w-4/5"
+                            style="color: rgba(0, 0, 0, 0.58);">Discover your
+                            family story with us and watch your family tree
+                            grow</p>
+                        <div class="flex items-center md:justify-start gap-x-3 pt-3">
+                            <button class="px-3 py-2 btngreen text-white border rounded">Get the App</button>
+                            <button class="px-3 py-2 bg-white border rounded">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:col-span-6 col-span-12">
+                    <img src="images/landingPgae.svg">
+                </div>
+            </div>
+        </section>
+
+        <!-- #################### why ######################## -->
+        <section class="pt-5 pb-3 md:px-7 px-3 bg-white">
+            <div class="flex flex-col justify-center items-center py-5">
+                <p class="md:text-3xl text-2xl font-semibold">Why <span class="text-green">Family tree?</span></p>
+                <p class="md:text-base text-sm font-normal md:w-1/2 text-center  py-3"> Family tree is a visual
+                    representation of a
+                    person's ancestry, showing the relationships between individuals across different generations within
+                    a family</p>
+            </div>
+            <div class="grid md:grid-cols-2 col-1 gap-6 py-5">
+                <div class="rounded-xl bg-grey pt-7">
+                    <div class="grid grid-cols-7 items-center">
+                        <div class="col-span-3">
+                            <img src="images/1.svg">
+                        </div>
+                        <div class="col-span-4 md:px-7 px-5">
+                            <div class="flex flex-col">
+                                <img src="images/number-1.svg" class="w-1/6">
+                                <p class="font-medium md:text-xl text-sm text-justify pt-6">Family Tree's structure
+                                    helps
+                                    categorize relatives by maternal and paternal sides.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-xl bg-grey pt-7">
+                    <div class="grid grid-cols-7 items-center">
+                        <div class="col-span-3">
+                            <img src="images/1.svg">
+                        </div>
+                        <div class="col-span-4 md:px-7 px-5">
+                            <div class="flex flex-col">
+                                <img src="images/number-2.svg" class="w-1/6">
+                                <p class="font-medium md:text-xl text-sm text-justify pt-6">Family Tree lets you record
+                                    your
+                                    family's story for future generations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-xl bg-grey pt-7">
+                    <div class="grid grid-cols-7 items-center">
+                        <div class="col-span-3">
+                            <img src="images/1.svg">
+                        </div>
+                        <div class="col-span-4 md:px-7 px-5">
+                            <div class="flex flex-col">
+                                <img src="images/number-3.svg" class="w-1/6">
+                                <p class="font-medium md:text-xl text-sm text-justify pt-6">Explore your family's rich
+                                    history,
+                                    find ancestors, and connect with relatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-xl bg-grey pt-7">
+                    <div class="grid grid-cols-7 items-center">
+                        <div class="col-span-3">
+                            <img src="images/1.svg">
+                        </div>
+                        <div class="col-span-4 md:px-7 px-5">
+                            <div class="flex flex-col">
+                                <img src="images/number-4.svg" class="w-1/6">
+                                <p class="font-medium md:text-xl text-sm text-justify pt-6">Collaborate with family,
+                                    building a
+                                    shared history, connecting with relatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- #################### FAQ ######################## -->
+        <section class="pt-5 pb-3 md:px-7 px-3 bg-grey my-5">
+            <div class="flex flex-col justify-center items-center">
+                <p class="md:text-3xl text-2xl font-semibold text-center">Frequently Asked Questions</p>
+            </div>
+            <div class="flex flex-col justify-center items-center md:px-0 md:px-5 md:py-7 py-3">
+                <div class="flex flex-col border md:w-4/5 w-full radius-10 my-2 close rounded-lg bg-white">
+                    <div class="flex justify-between md:p-5 px-4 py-5 items-center gap-7" onclick="dropDownAnswer(this)"
+                        id="question-1">
+                        <p class="font-semibold md:text-xl text-sm"> How do I add family members to my tree?</p>
+                        <img src="images/plus.svg" class="dropUp">
+                        <img src="images/dash.svg" class="dropDown d-none">
+                    </div>
+                    <div class="md:px-5 px-4 md:py-10 py-5 d-none body" id="answer-1"
+                        style="border-top: 1px solid rgba(162, 28, 52, 0.15);">
+                        <p class="md:text-base text-xs font-normal text-justify">
+                            To add family members, simply log in to your account and navigate to the "Add Members"
+                            section. You can add members directly to your family or categorize them based on their
+                            mother and father's side. Fill in the required information, and your family tree will start
+                            growing.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col border md:w-4/5 w-full radius-10 my-2 close rounded-lg bg-white">
+                    <div class="flex justify-between md:p-5 px-4 py-5 items-center gap-7" onclick="dropDownAnswer(this)"
+                        id="question-2">
+                        <p class="font-semibold md:text-xl text-sm">What is the benefit of categorizing family members
+                            based on their parents' families?</p>
+                        <img src="images/plus.svg" class="dropUp">
+                        <img src="images/dash.svg" class="dropDown d-none">
+                    </div>
+                    <div class="md:px-5 px-4 md:py-10 py-5 d-none body" id="answer-2"
+                        style="border-top: 1px solid rgba(162, 28, 52, 0.15);">
+                        <p class="md:text-base text-xs font-normal text-justify">
+                            Categorizing family members based on their parents' families helps you create a more
+                            comprehensive and organized family tree. It makes it easier to trace your lineage, connect
+                            with relatives on both sides, and maintain a clear family history.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col border md:w-4/5 w-full radius-10 my-2 close rounded-lg bg-white">
+                    <div class="flex justify-between md:p-5 px-4 py-5 items-center gap-7" onclick="dropDownAnswer(this)"
+                        id="question-3">
+                        <p class="font-semibold md:text-xl text-sm">Can I invite family members to collaborate on our
+                            family tree?</p>
+                        <img src="images/plus.svg" class="dropUp">
+                        <img src="images/dash.svg" class="dropDown d-none">
+                    </div>
+                    <div class="md:px-5 px-4 md:py-10 py-5 d-none body" id="answer-3"
+                        style="border-top: 1px solid rgba(162, 28, 52, 0.15);">
+                        <p class="md:text-base text-xs font-normal text-justify">
+                            Yes, you can! Family Tree allows you to invite family members to collaborate on your family
+                            tree. Simply send them an invitation through the app, and they can join in, contribute, and
+                            help expand your shared family history.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col border md:w-4/5 w-full radius-10 my-2 close rounded-lg bg-white">
+                    <div class="flex justify-between md:p-5 px-4 py-5 items-center gap-7" onclick="dropDownAnswer(this)"
+                        id="question-4">
+                        <p class="font-semibold md:text-xl text-sm">Is my family tree information private and secure?
+                        </p>
+                        <img src="images/plus.svg" class="dropUp">
+                        <img src="images/dash.svg" class="dropDown d-none">
+                    </div>
+                    <div class="md:px-5 px-4 md:py-10 py-5 d-none body" id="answer-4"
+                        style="border-top: 1px solid rgba(162, 28, 52, 0.15);">
+                        <p class="md:text-base text-xs font-normal text-justify">
+                            We take your privacy and security seriously. Your family tree information is stored securely
+                            and is only accessible to you and the family members you invite. We do not share your data
+                            with third parties, and you can control who has access to your family tree.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-green-500 rounded-lg md:py-0 py-5">
+                <div class="grid md:grid-cols-7 md:px-7 px-4 items-center">
+                    <div class="md:col-span-3 col-span-7 flex items-center">
+                        <div class="flex items-center ">
+                            <img src="images/tryPhone.svg">
+                        </div>
+                    </div>
+                    <div class="md:col-span-4 col-span-7 flex flex-col justify-center">
+                        <div class="md:w-4/5">
+                            <p class="text-3xl text-white md:text-start text-center font-semibold">Try it right now</p>
+                            <p class="text-lg text-white md:text-start text-center font-normal py-5">Download the family
+                                tree app on the playstore
+                                and App store
+                                and make your own family tree as your wish</p>
+                        </div>
+                        <div class="flex items-center md:justify-start justify-between gap-x-3">
+                            <img src="images/tryApp.svg">
+                            <img src="images/tryPlay.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- #################### Footer ######################## -->
+
+        <footer class="py-3 md:px-7 px-3">
+            <div class="pl-3 flex md:flex-row flex-col items-center md:justify-between justify-center">
+                <div class="flex flex-col md:items-start items-center">
+                    <div class="md:block hidden">
+                        <img src="images/navLogo.svg">
+                    </div>
+                    <div class="flex md:flex-row flex-col items-center pt-4">
+                        <div class="block md:hidden pb-3">
+                            <img src="images/navLogo.svg">
+                        </div>
+                        <p class="font-medium text-lg pr-4">Follow on</p>
+                        <div class="flex gap-x-2 md:py-1 py-2">
+                            <img src="images/insta.svg">
+                            <img src="images/tweet.svg">
+                            <img src="images/facebook.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center md:pt-0 py-5 md:justify-start justify-center gap-x-7">
+                    <p class="font-medium md:text-lg text-base">Why Us?</p>
+                    <p class="font-medium md:text-lg text-base">FAQ</p>
+                    <p class="font-medium md:text-lg text-base">Help</p>
+                    <p class="font-medium md:text-lg text-base">Privacy Policy</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="index.js"></script>
+        <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    </body>
+
+</html>
