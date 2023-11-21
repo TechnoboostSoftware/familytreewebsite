@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: Plus Jakarta Sans;
     font-style: normal;
+    color: black;
 }
 
 .bg-grey {
@@ -10,7 +11,7 @@
 }
 
 .text-green {
-    color: rgba(39, 192, 61, 1);
+    color: rgba(39, 192, 61, 1) !important;
 }
 
 .btngreen {

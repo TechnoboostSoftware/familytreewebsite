@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>family Tree</title>
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,8 +45,8 @@
                     <!-- Logo -->
                     <button class="py-2 px-5 border rounded bg-white text-base">Contact Us</button>
                     <div class="flex md:flex-row flex-col items-center justify-between gap-x-2">
-                        <img src="images/appStore.svg">
-                        <img src="images/playStore.svg">
+                        <img role="button" src="images/appStore.svg">
+                        <img role="button" src="images/playStore.svg">
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
         </section>
 
         <!-- #################### why ######################## -->
-        <section class="pt-5 pb-3 md:px-7 px-3 bg-white">
+        <section class="pt-5 pb-3 md:px-7 px-3 bg-white" id="whyUs">
             <div class="flex flex-col justify-center items-center py-5">
                 <p class="md:text-3xl text-2xl font-semibold">Why <span class="text-green">Family tree?</span></p>
                 <p class="md:text-base text-sm font-normal md:w-1/2 text-center  py-3"> Family tree is a visual
@@ -150,7 +150,7 @@
         </section>
 
         <!-- #################### FAQ ######################## -->
-        <section class="pt-5 pb-3 md:px-7 px-3 bg-grey my-5">
+        <section class="pt-5 pb-3 md:px-7 px-3 bg-grey my-5" id="FAQ">
             <div class="flex flex-col justify-center items-center">
                 <p class="md:text-3xl text-2xl font-semibold text-center">Frequently Asked Questions</p>
             </div>
@@ -242,8 +242,8 @@
                                 and make your own family tree as your wish</p>
                         </div>
                         <div class="flex items-center md:justify-start justify-between gap-x-3">
-                            <img src="images/tryApp.svg">
-                            <img src="images/tryPlay.svg">
+                            <img role="button" src="images/tryApp.svg">
+                            <img role="button" src="images/tryPlay.svg">
                         </div>
                     </div>
                 </div>
@@ -262,19 +262,19 @@
                         <div class="block md:hidden pb-3">
                             <img src="images/navLogo.svg">
                         </div>
-                        <p class="font-medium text-lg pr-4">Follow on</p>
+                        <p class="font-medium text-black text-lg pr-4">Follow on</p>
                         <div class="flex gap-x-2 md:py-1 py-2">
-                            <img src="images/insta.svg">
-                            <img src="images/tweet.svg">
-                            <img src="images/facebook.svg">
+                            <img role="button" src="images/insta.svg">
+                            <img role="button" src="images/tweet.svg">
+                            <img role="button" src="images/facebook.svg">
                         </div>
                     </div>
                 </div>
                 <div class="flex items-center md:pt-0 py-5 md:justify-start justify-center gap-x-7">
-                    <p class="font-medium md:text-lg text-base">Why Us?</p>
-                    <p class="font-medium md:text-lg text-base">FAQ</p>
-                    <p class="font-medium md:text-lg text-base">Help</p>
-                    <p class="font-medium md:text-lg text-base">Privacy Policy</p>
+                    <a href="#whyUs" class="font-medium text-black md:text-lg text-base">Why Us?</a>
+                    <a href="#FAQ" class="font-medium text-black md:text-lg text-base">FAQ</a>
+                    <a href="" class="font-medium text-black md:text-lg text-base">Help</a>
+                    <a href="" class="font-medium text-black md:text-lg text-base">Privacy Policy</a>
                 </div>
             </div>
         </footer>
