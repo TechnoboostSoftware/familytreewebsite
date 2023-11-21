@@ -18,6 +18,10 @@
     background: linear-gradient(275deg, #27C03D 17.21%, #5BEE74 100%);
 }
 
+.bg-green {
+    background: rgba(40, 193, 62, 1);
+}
+
 .d-none {
     display: none;
 }
@@ -26,7 +30,8 @@
     display: block;
 }
 
-.dropUp, .dropDown {
+.dropUp,
+.dropDown {
     width: 15px;
     height: 15px;
 }
