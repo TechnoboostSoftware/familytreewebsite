@@ -4,6 +4,7 @@
     font-family: Plus Jakarta Sans;
     font-style: normal;
     color: black;
+    scroll-behavior: smooth;
 }
 
 .bg-grey {
